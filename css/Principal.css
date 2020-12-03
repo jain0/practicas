@@ -1,0 +1,56 @@
+
+h1
+{
+color:orange;		/*color de letra*/
+font-size:45px;		/*tamaño de letra*/
+background-image: url(" https://www.entornoturistico.com/wp-content/uploads/2018/02/Morelia-Michoac%C3%A1n-M%C3%A9xico-660x330.jpg")	/*establece una imagen de fondo*/
+}
+
+p
+{
+ width:50%; 			/*ancho del texto*/
+ margin:20px;			/*margen externo (con respecto a la ventana)*/
+ padding:20px; 			/*margen interno (dentro del parrafo)*/
+ border-style:5px dotted;	/*establecer el grosor, estilo y anchura de todos los bordes*/
+ border:1px solid #000;		/*establecer el grosor, estilo y anchura de todos los bordes*/
+ background-color: azure;	/*color de fondo*/
+}
+
+body
+{
+ background-color: lavender;	/*color de fondo*/
+}
+
+.menu
+{
+ background:#ccc; 	/*pone fondo a la lista*/
+ list-style:none; 	/*quita las viñetas*/
+ padding:0;		/*establece el espacio de relleno requerido por todos los lados*/
+}
+
+.menu li a:hover /*hover permite que el cambie el color del texto al pasar el mouse por el*/
+{
+ background:#ccc;  	/*color de fondo*/
+ color:#fff;   		/*color de letra al pasar el mouse por ensima*/
+ font-size: 11px;   	/*tamaño de letra*/
+ padding:10;   		/*establece el espacio de relleno requerido por todos los lados*/
+}
+
+.menu li
+{
+ display: inline;   	/*Coloca un menu en linea horizontal*/
+ word-spacing: 20pt;  	/*Separa palabras*/
+}
+
+footer p
+{
+ width:50%;			/*ancho del texto*/
+ color:#000;			/*color del texto*/
+ margin:0px;			/*margen externo (con respecto a la ventana)*/
+ padding:0px; 			/*margen interno (dentro del parrafo)*/
+ border-style:none;	/*establecer el grosor, estilo y anchura de todos los bordes*/
+ border:0px ;		/*establecer el grosor, estilo y anchura de todos los bordes*/
+ background-color: lavender;		/*color de fondo*/
+}
+}
+

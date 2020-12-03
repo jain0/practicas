@@ -1,0 +1,50 @@
+body
+{
+background:#FAA85B;
+}
+
+p
+{
+background:#C6E3E8;
+border:5px dotted;
+}
+
+table
+{
+ border:5px solid #DDF2F6; /*borde para la tabla px tipo de color color*/
+ border-separate:separate; /*borde de una linea*/
+ background:#DDF2F6 ;
+}
+
+
+table th
+{
+ border:1px solid #97C6CF;
+ padding:20px; /*aumenta el tamaño de cada celda*/
+ background: #97C6CF;
+}
+
+
+table td
+{
+ border:1px solid #BEEBDF;
+ padding:20px; /*Aumenta el tamaño de cada celda*/
+ background:#C6E3E8;
+}
+
+
+table td:hover
+{
+ background:#064F5E;
+ color:#F8FCFD;
+}
+
+h2
+{
+ color:White;
+}
+
+h1
+{
+ color:White;
+}

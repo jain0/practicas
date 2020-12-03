@@ -1,0 +1,58 @@
+body
+{
+background:#FAA85B;
+}
+
+form
+{
+ width:30%;
+ border:1px solid #E80ECB; 
+ margin:20px;
+ padding:20px;
+ background:#FCEA58;
+}
+
+label
+{
+ font-size:18px;
+}
+
+/*para separar*/
+input, textarea
+{
+ margin-bottom:20px;
+ width:100%;
+ padding:10px; */Se da espacio entre el texto y la caja*/
+ border:1px solid #ccc;
+ 
+}
+
+/*cambio color boton*/
+
+input[type="submit"]
+{
+ background:#1668C4;
+ color:#fff;
+ border:none;
+ width:20%;
+}
+
+input[type="submit"]:hover
+{
+ background:#4A88F4;
+ cursor:pointer;
+}
+
+input[type="reset"]
+{
+ background:#1668C4;
+ color:#fff;
+ border:none;
+ width:20%;
+}
+
+input[type="reset"]:hover
+{
+ background:#4A88F4;
+ cursor:pointer;
+}
